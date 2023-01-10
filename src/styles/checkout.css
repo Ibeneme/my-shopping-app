@@ -1,0 +1,240 @@
+.checkout-container{
+    display: flex;
+    flex-direction: column;
+    margin: 2em;
+    padding: 1em;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.checkout-container-inside{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+.checkout-container-font-this{
+    padding: 0.4em 0.8em;
+    background-color: orangered;
+    color: white;
+    border-radius: 2em;
+}
+
+.checkout-container-font-black{
+    padding: 0.4em 0.8em;
+    color: orangered;
+    border-radius: 2em;
+}
+.checkout-container-font{
+    padding: 0.4em 0.8em;
+    color: gray;
+    border-radius: 2em;
+}
+
+.pay-with{
+    font-size: 1em;
+}
+.pay-with-p{
+    font-size: 0.8em;
+    margin: 0.2em;
+    color: gray;
+}
+.span-this{
+    margin: 0.2em;
+    width: 4em;
+    height:0.1em;
+    background-color: gray;
+    content: " ";
+    border-radius: 1em;
+}
+.span-this-black{
+    margin: 0.2em;
+    width: 4em;
+    height:0.1em;
+    background-color: orangered;
+    content: " ";
+    border-radius: 1em;
+}
+.checkout-font{
+    font-size: 0.95em;
+    color:black;
+}
+.checkout-span{
+    font-size: 0.9em;
+    color: red;
+}
+.input-box{
+    width: 36em;
+    height: 2.8em;
+    color: black;
+    border-radius: 0.4em;
+    margin-bottom: 1.4em;
+    padding-left: 1.3em;
+}
+
+.button-span{
+    width: 36em;
+    height: 2.8em;
+    color: white;
+    border-radius: 0.4em;
+    margin-top: 1.2em;
+    background-color: orangered;
+    border: orangered;
+    box-shadow: 10px 10px;
+
+    
+}
+.button-span:hover{
+    width: 36em;
+    height: 2.8em;
+    color: white;
+    border-radius: 0.4em;
+    margin-top: 1.2em;
+    background-color: black;
+    border: black;
+
+    
+}
+
+.radio-box{
+    width: 30em;
+    height: 5em;
+    display: flex;
+    align-items: center;
+    padding-left: 1.5em;
+    gap:0.3em;
+    border: 1px solid rgba(0, 0, 0, 0.445);
+    border-radius: 0.3em;
+    margin-bottom: 1em;
+}
+
+.boxed{
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 530px){
+    .checkout-container{
+        display: flex;
+        flex-direction: column;
+        margin: 2em;
+        padding: 2em;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    
+    .checkout-container-inside{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1.6em;
+        margin-bottom: 1.6em;
+    }
+    .checkout-container-font-this{
+        padding: 0.4em 0.8em;
+        background-color: orangered;
+        color: white;
+        font-size: 0.8em;
+        border-radius: 2em;
+    }
+    
+    .checkout-container-font-black{
+        padding: 0.4em 0.8em;
+        color: orangered;
+        border-radius: 2em;
+        font-size: 0.8em;
+    }
+    .checkout-container-font{
+        font-size: 0.7em;
+        padding: 0.4em 0.8em;
+        color: gray;
+        border-radius: 2em;
+    }
+    
+    .pay-with{
+        font-size: 0.8em;
+    }
+    .pay-with-p{
+        font-size: 0.7em;
+        margin: 0.2em;
+        color: gray;
+    }
+    .span-this{
+        margin: 0.2em;
+        width: 2em;
+        height:0.1em;
+        background-color: gray;
+        content: " ";
+        border-radius: 1em;
+    }
+    .span-this-black{
+        margin: 0.2em;
+        width: 2em;
+        height:0.1em;
+        background-color: orangered;
+        content: " ";
+        border-radius: 1em;
+    }
+    .checkout-font{
+        font-size: 0.78em;
+        color:black;
+    }
+    .checkout-span{
+        font-size: 0.9em;
+        color: red;
+    }
+    .input-box{
+        width: 22em;
+        height: 2.8em;
+        color: black;
+        border-radius: 0.4em;
+        margin-bottom: 1.4em;
+        padding-left: 1.3em;
+    }
+    
+    .button-span{
+        width: 22em;
+        height: 2.8em;
+        color: white;
+        border-radius: 0.4em;
+        margin-top: 1.2em;
+        background-color: orangered;
+        border: orangered;
+        box-shadow: 10px 10px;
+    
+        
+    }
+    .button-span:hover{
+        width: 22em;
+        height: 2.8em;
+        color: white;
+        border-radius: 0.4em;
+        margin-top: 1.2em;
+        background-color: black;
+        border: black;
+    
+        
+    }
+    
+    .radio-box{
+        width: 20em;
+        height: 5em;
+        display: flex;
+        align-items: center;
+        padding-left: 1.5em;
+        gap:0.3em;
+        border: 1px solid rgba(0, 0, 0, 0.445);
+        border-radius: 0.3em;
+        margin-bottom: 1em;
+    }
+    
+    .boxed{
+        display: flex;
+        flex-direction: column;
+    }
+}

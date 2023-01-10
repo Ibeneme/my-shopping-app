@@ -1,0 +1,105 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: BioRhyme;
+
+}
+
+.heroa{
+    background-color:red;
+    height:13vh;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    border-top: yellow 0.45em solid;
+    border-bottom: yellow 0.45em solid;
+   }
+
+
+h1{
+    margin-left: 2em;
+    color: white;
+    font-size: 2.2rem;
+    text-align: left;
+}
+
+
+@media (min-width: 520px) and (max-width: 1024px){
+    
+.heroa{
+    background-color:red;
+    height:26vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: yellow 0.45em solid;
+    border-bottom: yellow 0.45em solid;
+   }
+   
+   h1{
+       color: white;
+       font-size: 2em;
+       text-align: center;
+   }
+
+   
+}
+
+@media (max-width: 520px){
+    .heroa{
+        background-color:red;
+        height:12vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-top: yellow 0.25em solid;
+        border-bottom: yellow 0.42em solid;
+        margin-bottom: 2em;
+       }
+       
+       h1{
+           color: white;
+           font-size: 1.2em;
+           text-align: center;
+       }
+    
+}
+
+
+@media (min-width: 950px)and (max-width: 1200px){
+    .heroa{
+        background-color:red;
+        height:15vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-top: yellow 0.45em solid;
+        border-bottom: yellow 0.45em solid;
+       }
+       
+       h1{
+           color: white;
+           font-size: 2.4em;
+           text-align: center;
+       }
+    
+}
+@media (min-width: 520px)and (max-width: 950px){
+    .heroa{
+        background-color:red;
+        height:15vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-top: yellow 0.45em solid;
+        border-bottom: yellow 0.45em solid;
+       }
+       
+       h1{
+           color: white;
+           font-size: 1.5em;
+           text-align: center;
+       }
+    
+}

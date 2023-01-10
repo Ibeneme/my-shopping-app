@@ -1,0 +1,124 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: BioRhyme;
+
+}
+
+.hero{
+ background: url(../components/images/Hero-cart.png);
+ background-position: center;
+ background-clip: border-box;
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ height: 90.7vh;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.hero-blur{
+    background-color: rgba(0, 0, 0, 0.774);
+    width: 100%;
+    height: 90.7vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ justify-content: center;
+}
+
+.header-one{
+    color: white;
+    font-size: 4rem;
+    text-align: left;
+}
+.header-two{
+    align-items: center;
+    color: orangered;
+    font-size: 4rem;
+    text-align: center;
+    margin-left: -1em;
+}
+.link{
+    align-items: center;
+    text-decoration: none;
+}
+.btnn{
+    
+    width: 18rem;
+    padding: 1em 2em;
+    background-color: orangered;
+    color: white;
+    font-size: 1em;
+    font-weight: 600;
+    border: none;
+    margin-top: 1.2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.4em;
+    text-decoration: none;
+}
+
+.btnn:hover{
+    
+    width: 18rem;
+    padding: 1em 2em;
+    background-color: white;
+    color: black;
+    font-size: 1em;
+    font-weight: 600;
+    border: none;
+    margin-top: 1.2em;
+    text-decoration: none;
+}
+
+.cart{
+
+ font-size: 1.2em;
+}
+
+
+@media only screen and (max-width: 1024px){
+    
+.hero{
+    background: url(../components/images/Hero-cart.png);
+    background-position: center;
+    background-clip: border-box;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 90.7vh;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    text-align: center;
+   }
+   
+   .hero-blur{
+       background-color: rgba(0, 0, 0, 0.774);
+       width: 100%;
+       height: 90.7vh;
+       display: flex;
+       flex-direction: column; 
+       text-align: Center;
+       justify-content: center;
+       align-items: left;
+   
+   }
+   
+   .header-one{
+       color: white;
+       font-size: 1.2em;
+       text-align: left;
+      
+   }
+   .header-two{
+       color: orangered;
+       font-size: 2em;
+       text-align: left;
+   }
+
+   
+}
