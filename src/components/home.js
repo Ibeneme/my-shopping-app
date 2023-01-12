@@ -2,13 +2,16 @@ import React from 'react';
 import { useState } from 'react';
 import SearchFilter from 'react-filter-search'
 import ProductCard from './ProductCard';
+import {  GiTowerBridge, GiTowerFlag, GiEvilTower, GiWatch, GiPocketWatch} from "react-icons/gi"
+import {  BsWatch} from "react-icons/bs"
+import {  HiOutlineColorSwatch} from "react-icons/hi"
+import {  loMdWatch } from "react-icons/io5"
+
 import Discount from './discount';
 
 function Home(){
     const [searchInput] = useState(' ')
 
-    
-    
 const product  = [
   
   {
@@ -45,11 +48,41 @@ const product  = [
 },
 
 ]
-
-
   return (
-    <div>
-      <Discount />
+    <div className='div-first-flex'>
+    <div  className='div-first-column-first'>
+      <div  className='div-first-flex'>
+          <div className='div-first-column'>
+            <BsWatch  style={{marginTop: "0.3em"}}/>
+            <p className='div-para-column'>Simple Watches</p>
+          </div>
+          <div className='div-first-column'>
+            < HiOutlineColorSwatch style={{marginTop: "0.3em"}} />
+            <p className='div-para-column'>Gold Watches</p>
+          </div>
+          <div className='div-first-column'>
+            <GiWatch style={{marginTop: "0.3em"}}/>
+            <p className='div-para-column'>Diamond Watches</p>
+          </div>
+          <div className='div-first-column'>
+            <GiPocketWatch style={{marginTop: "0.3em"}}/>
+            <p className='div-para-column'>Royal Watches</p>
+          </div>
+      </div>
+      <div >
+        <div className='div-hero-first'>
+
+        </div>
+        <div className='div-first-column'>
+          <div className='div-hero'>
+
+          </div>
+          <div className='div-hero-last'>
+
+          </div>
+        </div>
+      </div>
+    </div>
       <div style={{display:"flex", alignItems: "center", justifyContent: "center"}}>
         <h2 style={{ marginBottom: "0.2em", alignItems: "center", }}>Products</h2>
       </div>

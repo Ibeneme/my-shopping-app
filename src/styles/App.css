@@ -50,6 +50,17 @@ opacity: 0;
 }
 
 
+.div-span{
+    position: relative;
+}
+.div-span-cart{
+    position: absolute;
+    margin-top: -2.8rem;
+    margin-left: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 @media (min-width: 520px) and (max-width: 1000px){
     header .nav-btn{

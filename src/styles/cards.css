@@ -1,3 +1,25 @@
+body{
+    background-color: #f1f1f1;
+}
+
+.div-first-flex{
+    display: flex;
+    flex-direction: column;
+}
+
+.div-first-column{
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+    margin-top: 0.2rem;
+}
+.div-first-column-first{
+    display: flex;
+    flex-direction: row;
+}
+.div-para-column{
+    margin-left: 0.5rem;
+}
 
 .product-container{
     width:14rem ;

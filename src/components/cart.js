@@ -20,8 +20,8 @@ const Cart = ()=>{
   } = useCart()
 
 
-  if( isEmpthy ) 
- { return (<h2>Your Cart is Empty</h2>)}
+  if(isEmpthy) 
+ return ("Your Cart is Empty")
   return(
     <>
     <div>

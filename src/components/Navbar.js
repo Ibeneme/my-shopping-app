@@ -20,10 +20,16 @@ function NavBar(){
                     <h4>Shoppermans.com <FaHome /></h4>
                 </Link>
                 <Link to ="cart">
-                    <h2 style={{ fontSize:"1em", color:"white",
+                <div className='div-span' style={{ fontSize:"1em", color:"white",
                     textDecoration: "none", 
-                    justifyContent:"baseline"}} >Cart <HiShoppingCart style={{fontSize:"1em"}} />
-                    {!isEmpty && <span style={{borderRadius: "23em", fontSize:"0.8em", padding: "0.9em",marginLeft:"0.4em", backgroundColor: "red", color: "white"}}>{totalItems}</span>}</h2>
+                    justifyContent:"baseline"}} > <HiShoppingCart style={{fontSize:"2em"}} />
+                    <div className='div-span-cart' 
+                    style={{borderRadius: "50%", 
+                    height: "1.34rem", width: "1.34rem",
+                    fontSize:"0.56em", 
+                     backgroundColor: 
+                    "#0a71cf", color: "white"}}>{totalItems}</div>
+                    </div>
                 </Link>
             </header>
         </div>
